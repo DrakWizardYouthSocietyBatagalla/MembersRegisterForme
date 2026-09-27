@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primariColor_0: #130296bd;
+    --primariColor_1: #240a54;
+    --Logo: url(./IMG/logo.jpeg)
+}
+
+body {
+    background-image: radial-gradient(var(--primariColor_0), var(--primariColor_1));
+    height: 100vh;
+    overflow: hidden;
+}
+
+.close {
+    width: 0 !important;
+}
+
+.FormeFrame {
+    background: #5b4cbcc9;
+    padding: 0 1vh;
+    border-radius: 20px;
+    border-top: 7px solid #6e00ff;
+}
+
+.FrameBoxContain {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.FrameName {
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(46deg, #292eb5, #5511af);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.FrameLogo {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    background-color: navy;
+    margin: 2vh 3vh;
+    background: var(--Logo);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.loding {
+    align-items: center;
+    justify-content: center;
+}
+
+.lodingSection {
+    width: 30vw;
+    height: auto;
+    padding-bottom: 1vh;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+
+.lable {
+    color: white;
+    display: block;
+    padding: 0.5vh 1vh;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: small;
+}
+
+input {
+    width: 70%;
+    padding: .5vh .5vh;
+    display: block;
+    margin: .5vh auto;
+    border-color: transparent;
+    outline-color: transparent;
+    border-radius: 5px;
+    background: #4626a345;
+    text-align: center;
+    color: #815ddb !important;
+}
+
+.requadBox select {
+    padding: 0.5vh;
+    margin: .5vh auto;
+    background: #4626a345;
+    border-color: transparent;
+    border-radius: 5px;
+    width: 70%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #815ddb;
+}
+
+
+.requadBox {
+    padding: 1vh 5vh;
+}
+
+.lable i {
+    margin-right: 1vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.btnAction {
+    border: 1px solid black;
+    font-size: larger;
+    font-weight: bolder;
+    text-transform: capitalize;
+    padding: 1vh 2vh;
+    margin: 3vh auto 0.5vh;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    justify-content: center;
+}
+
+.DetaRBC {
+    background-color: #00000091;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.DetaRBCBox {
+    width: 40%;
+    height: auto;
+    background: navy;
+    border-radius: 10px;
+    padding: 1vh 2vh;
+    overflow: hidden;
+    scale: 0;
+    transition: all 500ms ease-in-out;
+}
+
+.DetaRBCBoxL {
+    width: 25vh;
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.DetaRBCBoxLLogo {
+    width: 70%;
+    height: 70%;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    margin: 2vh auto;
+    border-radius: 50%;
+    background: navy;
+    background-image: var(--Logo);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.DetaRBCBoxLL_speek {
+    width: 60%;
+    height: 20%;
+    margin: auto;
+    display: none;
+}
+
+.DetaDisplaySection {
+    width: 60%;
+    height: auto;
+    margin: auto;
+
+}
+
+.DetaDisplaySectionRQB {
+    height: auto;
+    width: 80%;
+    margin: 2vh auto;
+    text-transform: capitalize;
+    font-size: small;
+    font-weight: 600;
+    color: white;
+    margin-bottom: .5vh;
+    display: contents;
+}
+
+.DetaDisplaySectionRQBS {
+    text-transform: capitalize;
+    margin: 1vh auto;
+    width: 80%;
+    font-weight: 600;
+    color: white;
+}
+
+.DetaDisplaySectionRQBS .Indexcode {
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+    color: wheat;
+    padding: 1vh .5vh;
+}
+
+.btnCancle {
+    font-size: medium;
+    font-weight: 600;
+    color: blue;
+    border: 1px solid blue;
+    margin: 1vh 1.5vh .5vh auto;
+}
+
+.Textgap {
+    padding: 1vh;
+}
+
+.submit {
+    background: #460a94;
+    color: #bea2f6;
+    border: 1px solid #bd9cffed;
+    width: 40%;
+    transition: all 400ms ease-in-out;
+    padding: 1vh .5vh;
+}
+
+.submit:hover {
+    background: #bea2f6;
+    color: #460a94;
+    border: 1px solid #370777;
+}
+
+.alertSection {
+    position: absolute;
+    top: 5vh;
+    right: -50vh;
+    width: 45vh;
+    height: auto;
+    background: #e6e6e6ed;
+    border-radius: 10px;
+    border-left: 1vh solid #2727c096;
+    overflow: hidden;
+    transition: all 200ms ease-in-out;
+}
+
+.proggressline {
+    background: red;
+    height: 3px;
+    width: 100%;
+    transition: all 1500ms ease-in-out;
+}
+
+.AlertMessage {
+    padding: 1vh .5vh;
+    font-size: medium;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: system-ui;
+    margin-left: 1vh;
+}
+
+.copyRigth {
+    color: navy;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 1vh 1vh;
+    font-weight: 600;
+    font-size: small;
+    font-family: cursive;
+}
+
+@media only screen and (max-device-width: 600px) {
+    .lodingSection {
+        width: 80vw;
+        margin: auto;
+    }
+
+    .requadBox select {
+        margin: 0.5vh auto;
+        width: 90%;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    .DetaRBCBox {
+        width: 85%;
+    }
+
+    .DetaRBCBoxL {
+        width: 20vh;
+        height: 20vh;
+        margin: auto;
+    }
+
+    .DetaRBCBoxLLogo {
+        width: 60%;
+        height: 60%;
+    }
+    .DetaDisplaySectionRQBS{
+        font-size: small;
+    }
+    .DetaDisplaySectionRQBS .Indexcode{
+        padding: 0.25vh;
+    }
+    .DetaDisplaySectionRQB{
+        font-size: xx-small;
+    }
+}
